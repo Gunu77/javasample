@@ -27,5 +27,5 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'hello Maven Webapp'
+    ArtifactName: 'java-tomcat-maven-example'
     publishLocation: 'Container'
